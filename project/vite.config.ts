@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/document-processor-saas/', // Adiciona o base path para GitHub Pages
+  base: '/QuickFill/', // Ajustado para o nome do seu repositório
   optimizeDeps: {
     exclude: ['lucide-react'],
   },

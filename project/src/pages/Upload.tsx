@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
-import { DocumentCard } from '@/components/documents/DocumentCard';
-import { UploadZone } from '@/components/documents/UploadZone';
+import { DocumentCard } from '../components/documents/DocumentCard';
+import { UploadZone } from '../components/documents/UploadZone';
 
 export function Upload() {
   const onDrop = useCallback((acceptedFiles: File[]) => {
